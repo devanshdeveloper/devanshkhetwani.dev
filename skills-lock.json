@@ -10,7 +10,7 @@
     "create-nww-website": {
       "source": "../../pilots/skills-by-devansh",
       "sourceType": "local",
-      "computedHash": "0d3b53510fb4dcd1ab344e9bb923baf05b7a68977c1ddfeecc5a9beb5f97237d"
+      "computedHash": "f412d6dc90f2334aee3569e588c216c6cec5d96d170492d5875826c2eee14813"
     },
     "nww": {
       "source": "devanshdeveloper/skills-by-devansh",

@@ -67,9 +67,10 @@ All progress is tracked in `project-docs/router-state.md`. The agent must initia
 ### Stage 2: Design Theory
 - **Goal:** Define the visual language, typography scales, color palettes, spacing systems, motion tokens, and voice & tone.
 - **Inputs:** Brand guidelines, reference URLs from discovery.
-- **Prerequisite:** Web-fetch and capture full-page reference screenshots (landing pages only). Verify if `frontend-design` skill is available per [design-theory.md](design-theory.md) or apply documented built-in taste rules.
+- **Prerequisite:** Web-fetch and capture full-page reference landing pages via companion script `node scripts/reference-capture/index.js`. Verify if `frontend-design` skill is available per [design-theory.md](design-theory.md) or apply documented built-in taste rules.
 - **Outputs:** `project-docs/design-theory.md`, `project-docs/design-references/<domain>/` (`page.html`, `content.md`, `screenshot-full-1440.png`, `capture.json`), `project-docs/client-review/gate-2-design-theory/`.
-- **Gate 2:** Client reviews the visual package (`project-docs/client-review/gate-2-design-theory/index.html`) and selects palette direction, typography, and brand mark. The agent never asks the client to review the raw technical spec; progress halts until the client decision is recorded.
+- **Review Compilation:** Run companion generator `node scripts/client-review/index.js` to compile the Gate 2 comparison hub and root portal (optionally deployed live to GitHub Pages via `assets/client-review-pages.yml`).
+- **Gate 2:** Client reviews the visual package (`project-docs/client-review/gate-2-design-theory/index.html` or live GitHub Pages) and selects palette direction, typography, and brand mark. The agent never asks the client to review the raw technical spec; progress halts until the client decision is recorded.
 
 ### Stage 3: Page List & Information Architecture
 - **Goal:** Build the complete sitemap, route hierarchy, page types (static, dynamic CMS, utility), and URL slugs. If page types appear that Design Theory did not cover, generate `project-docs/page-design-notes.md`.
@@ -126,7 +127,7 @@ All progress is tracked in `project-docs/router-state.md`. The agent must initia
 
 ### Stage 11: Final Verification & Handover
 - **Goal:** Execute full production audit and prepare handover:
-  - Run `ai-edit-audit` in `report-only` mode producing `project-docs/structure-audit.md`.
+  - Run `node scripts/structure-audit/index.js` to audit all 12 stages, verify documentation completeness, check strict line limits, and generate `project-docs/structure-audit.md`.
   - Conduct Pre-Launch SEO Audit on production build (`pnpm build && pnpm start`): metadata, JSON-LD, 301 redirects, robots.txt, sitemap.
   - Verify CMS checks: unpublished posts excluded, sanitizer strips malicious HTML, webhook responds within 5s, `REVALIDATE_SECRET` and `CMS_SITE_KEY` not leaked.
   - Verify stock audit: no provider API keys in site build or bundles; `/credits` page renders cleanly; Unsplash images include proper UTM attribution; `stock-provenance.json` backed up with assets.
@@ -142,3 +143,5 @@ All progress is tracked in `project-docs/router-state.md`. The agent must initia
 1. **Never auto-advance:** When a stage's artifacts are generated, display a concise summary to the user, present key decisions, and halt until human sign-off is granted.
 2. **Approval standard:** Only an affirmative reply ("approved", "proceed") clears a gate. Silence or clarifying questions do not constitute approval.
 3. **Atomic checkpoints:** Update `project-docs/router-state.md` immediately upon passing each gate.
+4. **Client Notification Prompt:** At every gate sign-off, ask the user: *"Would you like to notify the client for this milestone? Run `node scripts/client-notify/index.js` to preview and send upon approval."*
+

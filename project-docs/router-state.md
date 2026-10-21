@@ -46,3 +46,8 @@
 ## 3. Active Blockers & Gate Decisions
 - **Current Gate:** Gate 2 (Design Theory & Visual Direction Sign-Off).
 - **Halt Condition:** Mandatory halt enforced. Awaiting client palette choice (Option 1, 2, or 3) and direction approval via `project-docs/client-review/index.html` before Stage 3 Page List can begin. Zero approval recorded; no palette selected on behalf of client.
+
+
+## Client Notifications Log
+
+- **2026-10-21 08:43** — Sent milestone notification for **Gate 2** to `devanshkhetwani@gmail.com`: *"[Devansh Khetwani — Personal Developer Portfolio] Action Required: Review 3 Full-Page Visual Design Concepts"*
