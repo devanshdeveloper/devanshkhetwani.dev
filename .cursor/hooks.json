@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "node .cursor/hooks/cursor-guard.mjs",
+        "type": "command",
+        "timeout": 30,
+        "matcher": "*",
+        "failClosed": true
+      }
+    ]
+  }
+}

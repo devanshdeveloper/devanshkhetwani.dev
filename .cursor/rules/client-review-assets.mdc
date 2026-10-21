@@ -1,0 +1,8 @@
+---
+description: "Guidelines and verification requirements for client review HTML pages and visual proof assets."
+globs: "project-docs/client-review/**/*.{html,css,png,webp}"
+alwaysApply: false
+---
+Canonical instructions: [client-review-assets.md](file:///c:/code/personal/devanshkhetwani.dev/.agents/rules/client-review-assets.md)
+
+Read and follow `.agents/rules/client-review-assets.md` when modifying client review deliverables, pages, or visual assets.

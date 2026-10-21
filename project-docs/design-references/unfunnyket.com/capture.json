@@ -2,9 +2,8 @@
   "requestedUrl": "https://unfunnyket.com/",
   "finalUrl": "https://unfunnyket.com/",
   "domain": "unfunnyket.com",
-  "slug": "home",
   "pageTitle": "Aniket",
-  "capturedAt": "2026-10-21T07:56:33.989Z",
+  "capturedAt": "2026-10-21T09:39:44.195Z",
   "viewport": {
     "width": 1440,
     "height": 900,
@@ -16,10 +15,10 @@
     "html": "page.html",
     "htmlSizeBytes": 34727,
     "markdown": "content.md",
-    "markdownSizeBytes": 2471,
+    "markdownSizeBytes": 2462,
     "screenshot": "screenshot-full-1440.png",
-    "screenshotSizeBytes": 232341
+    "screenshotSizeBytes": 231437
   },
-  "notes": "Direct landing page. Focused single column narrative.",
-  "status": "success"
+  "status": "success",
+  "visualVerification": "pending manual screenshot inspection; capture success does not guarantee all animated or virtualized content is visible"
 }

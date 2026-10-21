@@ -1,0 +1,482 @@
+[
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "text",
+    "background": "bg",
+    "ratio": 10.35,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "muted",
+    "background": "bg",
+    "ratio": 4.96,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "accent",
+    "background": "bg",
+    "ratio": 5.76,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "text",
+    "background": "surface",
+    "ratio": 11.61,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "muted",
+    "background": "surface",
+    "ratio": 5.57,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "accent",
+    "background": "surface",
+    "ratio": 6.46,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "text",
+    "background": "soft",
+    "ratio": 11.02,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "muted",
+    "background": "soft",
+    "ratio": 5.29,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "accent",
+    "background": "soft",
+    "ratio": 6.13,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "light",
+    "foreground": "onAccent",
+    "background": "accent",
+    "ratio": 7.91,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "text",
+    "background": "bg",
+    "ratio": 13.68,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "muted",
+    "background": "bg",
+    "ratio": 8.55,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "accent",
+    "background": "bg",
+    "ratio": 7.34,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "text",
+    "background": "surface",
+    "ratio": 11.62,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "muted",
+    "background": "surface",
+    "ratio": 7.26,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "accent",
+    "background": "surface",
+    "ratio": 6.23,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "text",
+    "background": "soft",
+    "ratio": 10.26,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "muted",
+    "background": "soft",
+    "ratio": 6.41,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "accent",
+    "background": "soft",
+    "ratio": 5.5,
+    "passes": true
+  },
+  {
+    "concept": "Maker’s Desk",
+    "theme": "dark",
+    "foreground": "onAccent",
+    "background": "accent",
+    "ratio": 7.29,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "text",
+    "background": "bg",
+    "ratio": 13.65,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "muted",
+    "background": "bg",
+    "ratio": 5.38,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "accent",
+    "background": "bg",
+    "ratio": 7.16,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "text",
+    "background": "surface",
+    "ratio": 14.73,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "muted",
+    "background": "surface",
+    "ratio": 5.81,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "accent",
+    "background": "surface",
+    "ratio": 7.72,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "text",
+    "background": "soft",
+    "ratio": 12.25,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "muted",
+    "background": "soft",
+    "ratio": 4.83,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "accent",
+    "background": "soft",
+    "ratio": 6.42,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "light",
+    "foreground": "onAccent",
+    "background": "accent",
+    "ratio": 7.72,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "text",
+    "background": "bg",
+    "ratio": 13.66,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "muted",
+    "background": "bg",
+    "ratio": 8.93,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "accent",
+    "background": "bg",
+    "ratio": 8.32,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "text",
+    "background": "surface",
+    "ratio": 11.88,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "muted",
+    "background": "surface",
+    "ratio": 7.77,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "accent",
+    "background": "surface",
+    "ratio": 7.23,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "text",
+    "background": "soft",
+    "ratio": 10.17,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "muted",
+    "background": "soft",
+    "ratio": 6.65,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "accent",
+    "background": "soft",
+    "ratio": 6.19,
+    "passes": true
+  },
+  {
+    "concept": "Engineering Notes",
+    "theme": "dark",
+    "foreground": "onAccent",
+    "background": "accent",
+    "ratio": 7.88,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "text",
+    "background": "bg",
+    "ratio": 12.39,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "muted",
+    "background": "bg",
+    "ratio": 5.53,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "accent",
+    "background": "bg",
+    "ratio": 6.22,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "text",
+    "background": "surface",
+    "ratio": 13.55,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "muted",
+    "background": "surface",
+    "ratio": 6.05,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "accent",
+    "background": "surface",
+    "ratio": 6.81,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "text",
+    "background": "soft",
+    "ratio": 11.01,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "muted",
+    "background": "soft",
+    "ratio": 4.91,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "accent",
+    "background": "soft",
+    "ratio": 5.53,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "light",
+    "foreground": "onAccent",
+    "background": "accent",
+    "ratio": 6.81,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "text",
+    "background": "bg",
+    "ratio": 13.4,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "muted",
+    "background": "bg",
+    "ratio": 8.95,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "accent",
+    "background": "bg",
+    "ratio": 9.48,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "text",
+    "background": "surface",
+    "ratio": 10.63,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "muted",
+    "background": "surface",
+    "ratio": 7.1,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "accent",
+    "background": "surface",
+    "ratio": 7.52,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "text",
+    "background": "soft",
+    "ratio": 9.05,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "muted",
+    "background": "soft",
+    "ratio": 6.05,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "accent",
+    "background": "soft",
+    "ratio": 6.4,
+    "passes": true
+  },
+  {
+    "concept": "Personal Canvas",
+    "theme": "dark",
+    "foreground": "onAccent",
+    "background": "accent",
+    "ratio": 8.42,
+    "passes": true
+  }
+]

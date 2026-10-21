@@ -46,8 +46,10 @@ function parseRouterState() {
   const gateMatch = content.match(/Gate Status:\s*([^(\n]+)/i);
   const projectMatch = content.match(/Project:\s*([^\n]+)/i);
 
-  // Check for live URL
-  const urlMatch = content.match(/https?:\/\/[^\s)\],]+/i);
+  // Check for live URL (prioritize GitHub Pages review URL over CMS backend)
+  const ghPagesMatch = content.match(/https?:\/\/[a-zA-Z0-9.-]+\.github\.io[^\s)\],]*/i);
+  const fallbackUrlMatch = content.match(/https?:\/\/[^\s)\],]+/i);
+  const urlMatch = ghPagesMatch || fallbackUrlMatch;
 
   return {
     stage: stageMatch ? parseInt(stageMatch[1], 10) : 2,
@@ -104,9 +106,9 @@ function getStageTemplate(stage, context) {
       action: 'Experience the 3 full-page design concepts and choose your preferred visual identity (Option 1, 2, or 3).',
       deliverable: reviewUrl || 'project-docs/client-review/gate-2-design-theory/index.html',
       summary: `We have developed 3 distinct full-page website design directions for your review:\n` +
-               `  • Option 1: Minimal Slate & Signal Amber (Grounded engineering canvas)\n` +
-               `  • Option 2: Technical Obsidian & Laser Cyan (High-contrast developer theme)\n` +
-               `  • Option 3: Editorial Sand & Deep Burgundy (Warm editorial and refined typography)\n\n` +
+               `  • Option 1: Maker’s Desk (ByMayo-led compact profile, product shelf, and quiet notes)\n` +
+               `  • Option 2: Engineering Notes (Unfunny Ket-led personal reading column and chronology)\n` +
+               `  • Option 3: Personal Canvas (Yev Tam-led centered introduction and tactile navigation dock)\n\n` +
                `Each option features complete, realistic portfolio content, real project showcases, timeline, and an interactive review bar.`
     },
     3: {

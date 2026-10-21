@@ -7,17 +7,20 @@
 
 More from context
 New Material
-[Button: Jump to top]
+
+Jump to top
+
+[New Material joins MistralNew Material joins Mistral](https://newmaterial.ai/stories/newmaterial-joins-mistral)
 [Get started](https://newmaterial.ai/#get-in-touch)
 
 # Intelligence, applied.
 
-![Collecting training data with FieldDay](https://newmaterial.ai/cdn-cgi/image/width=800,quality=70,format=auto,fit=cover/uploads/artifacts/1778106986084-collecting-training-data-with-fieldday-preview.webp)
-![Visualising AI](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1778107366642-the-machine-learning-process-preview.webp)
+![Forma Crown](https://newmaterial.ai/cdn-cgi/image/width=800,quality=70,format=auto,fit=cover/uploads/artifacts/1789305349979-forma-crown-preview.webp)
+![Collecting training data with FieldDay](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1778106986084-collecting-training-data-with-fieldday-preview.webp)
 ![Precise real-time testing](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1788173293822-precise-real-time-testing-preview.webp)
-![Drafting, grounded in precedent.](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1778107031158-an-auditable-tabular-data-extraction-tool-powering-precision-drafting-preview.webp)
-![Forma Crown](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1789305349979-forma-crown-preview.webp)
-![Mobile-first AI](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1778247978692-using-liveactivity-for-agent-observability-preview.webp)
+![Lifelong performance, medically backed.](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1790151478868-introducing-forma-health-preview.webp)
+![Testing Forma Shots with Rafael Nadal](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1778107084117-testing-forma-shots-with-rafael-nadal-preview.webp)
+![Retail experience for ON Running](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1778106853748-retail-experience-for-on-running-preview.webp)
 ![Rethinking commercial vehicle security.](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1790084455560-exploded-view-of-of-canopy-preview.webp)
 ![More from context. An agentic harness for content.](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1789519832084-more-from-context-cards-preview.webp)
 ![Managing legal matters on autopilot.](https://newmaterial.ai/cdn-cgi/image/width=500,quality=70,format=auto,fit=cover/uploads/artifacts/1789486141139-hero-preview.webp)
@@ -29,13 +32,13 @@ New Material joins Mistral to design the frontier
 
 New Material delivers AI-native products,products, by design.We team up with the world’s most ambitious organisations transforming their industries with AI.
 
-Bringing AI products from concept to market requires integrated thinking with a customer-first lens across many specialisations. New Material brought the expertise to accelerate us across AI strategy, model development, engineering, and industrial design.
+Very few partners will challenge your thinking, help you see the market differently and push you towards building something genuinely new, yet grounded in business reality. This is where New Material stands apart.
 
-[CanopyRethinking commercial vehicle security.](https://newmaterial.ai/stories/ford-canopy)
 [AI SuiteManaging legal matters on autopilot.](https://newmaterial.ai/stories/automating-matter-management-for-an-amlaw50-law-firm)
-![Christian Moran](https://newmaterial.ai/cdn-cgi/image/width=84,quality=80,format=auto/uploads/people/1783878349942-1783878348045-1777380400191.png)
-Christian Moran
-President and CEO, Canopy at Ford
+[CanopyRethinking commercial vehicle security.](https://newmaterial.ai/stories/ford-canopy)
+![Lucía Elizalde-Bulanti](https://newmaterial.ai/cdn-cgi/image/width=84,quality=80,format=auto/uploads/people/1784117073912-1784117070035-lucia.png)
+Lucía Elizalde-Bulanti
+Director of Innovation at AmLaw 50 Firm
 - Data Collection
 - Industrial Design
 - Hardware Engineering
@@ -117,11 +120,11 @@ Over the last 10 years, we’ve worked with the world’s most forward-looking o
 ![Gabriel Mitchell, Co-Founder](https://newmaterial.ai/cdn-cgi/image/width=288,quality=70,format=auto,fit=cover/uploads/people/1783806650623-1774365096228-Team_Gabriel_Mitchell_Team_Headshot.png)
 ![Nick Nikolov, Co-Founder and CTO](https://newmaterial.ai/cdn-cgi/image/width=288,quality=70,format=auto,fit=cover/uploads/people/1783878615884-1783858723119-1774205562411-Team_Nick_Nikolov_Team_Headshot-2.png)
 
-Nick Nikolov
+Gabriel Mitchell
 
-Co-Founder and CTO
+Co-Founder
 
-[Follow](https://x.com/nicknikolov)
+[Follow](https://x.com/gabeschnitzel)
 
 Let’s transform your industry with AI. Get in touch.
 
@@ -137,7 +140,8 @@ What’s your role?
 hello
 @
 newmaterial.ai
-[Button: CopiedCopy]
+Copied
+Copy
 
 NewMaterial
 
@@ -169,6 +173,6 @@ More from context
 
 More from context
 
-[Button: Light]
-[Button: Dark]
-[Button: System]
+Light
+Dark
+System

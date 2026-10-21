@@ -3,8 +3,7 @@
 > **Usage Notice:** All third-party HTML, text, and screenshots saved in this directory are external reference material collected solely for internal design analysis and benchmarking. Their text, markup, code, and images must never be reused, copied, or incorporated into the client's website.
 
 **Recorded Date:** 2026-10-21  
-**Project:** Devansh Khetwani — Personal Developer Portfolio  
-**Purpose:** Internal design discussion, visual benchmarking, and client visual review package.  
+**Project:** Client Reference Inventory  
 **Scope:** Landing Pages Only (`project-docs/design-references/<domain>/`)  
 
 ---
@@ -13,12 +12,12 @@
 
 | Domain | Site Name | Source URL | Captured Files | Viewport | Status & Notes |
 |---|---|---|---|---|---|
-| `bymayo.co.uk` | By Mayo | `https://bymayo.co.uk/?ref=onepagelove` | `page.html` (59.2 KB)<br>`content.md` (0.7 KB)<br>`screenshot-full-1440.png` (125.4 KB)<br>`capture.json` (0.8 KB) | 1440 × 1223 px | **Complete & Verified**: Clean typography, apps feed, soft dark/light contrast. `?ref=onepagelove` stripped. |
-| `unfunnyket.com` | Unfunny Ket | `https://unfunnyket.com/` | `page.html` (34.7 KB)<br>`content.md` (2.5 KB)<br>`screenshot-full-1440.png` (232.3 KB)<br>`capture.json` (0.7 KB) | 1440 × 1597 px | **Complete & Verified**: Focused reading column, hairline timeline grid, authentic narrative. |
-| `tinycomputer.co` | Tiny Computer | `https://tinycomputer.co/?ref=onepagelove` | `page.html` (830.0 KB)<br>`content.md` (1.6 KB)<br>`screenshot-full-1440.png` (113.7 KB)<br>`capture.json` (0.8 KB) | 1440 × 3367 px | **Complete & Verified**: Minimal software studio canvas, baseline typography, Boardwalk preview window. |
-| `f13.com` | F13 | `https://www.f13.com/?ref=onepagelove` | `page.html` (333.6 KB)<br>`content.md` (6.4 KB)<br>`screenshot-full-1440.png` (293.3 KB)<br>`capture.json` (0.7 KB) | 1440 × 3603 px | **Complete & Verified**: Hairline borders (`0.5px`), pill navigation, signal amber accents (`#ffcf22`), and SVG schematics. |
-| `yevtam.com` | Yev Tam | `https://yevtam.com/?ref=onepagelove` | `page.html` (111.0 KB)<br>`content.md` (12.3 KB)<br>`screenshot-full-1440.png` (202.2 KB)<br>`capture.json` (0.7 KB) | 1440 × 900 px | **Complete & Verified**: Single-viewport layout, centered avatar portrait, dock navigation. |
-| `newmaterial.ai` | New Material | `https://newmaterial.ai/?ref=onepagelove` | `page.html` (392.2 KB)<br>`content.md` (7.4 KB)<br>`screenshot-full-1440.png` (676.0 KB)<br>`capture.json` (0.7 KB) | 1440 × 3187 px | **Complete & Verified**: High-fidelity floating cards, responsive team grid, and contact section. |
+| `bymayo.co.uk` | By Mayo | `https://bymayo.co.uk/?ref=onepagelove` | page.html (57.8 KB)<br>content.md (0.6 KB)<br>screenshot-full-1440.png (122.5 KB)<br>capture.json | 1440 × 1223 px | **Captured; visual inspection pending** |
+| `unfunnyket.com` | Unfunny Ket | `https://unfunnyket.com/` | page.html (33.9 KB)<br>content.md (2.4 KB)<br>screenshot-full-1440.png (226 KB)<br>capture.json | 1440 × 1597 px | **Captured; visual inspection pending** |
+| `tinycomputer.co` | Tiny Computer | `https://tinycomputer.co/?ref=onepagelove` | page.html (810.7 KB)<br>content.md (1.6 KB)<br>screenshot-full-1440.png (123.2 KB)<br>capture.json | 1440 × 3367 px | **Captured; visual inspection pending** |
+| `f13.com` | F13 | `https://www.f13.com/?ref=onepagelove` | page.html (325.9 KB)<br>content.md (6.4 KB)<br>screenshot-full-1440.png (333.6 KB)<br>capture.json | 1440 × 3603 px | **Captured; visual inspection pending** |
+| `yevtam.com` | Yev Tam | `https://yevtam.com/?ref=onepagelove` | page.html (108.4 KB)<br>content.md (11.8 KB)<br>screenshot-full-1440.png (197.3 KB)<br>capture.json | 1440 × 900 px | **Captured; visual inspection pending** |
+| `newmaterial.ai` | New Material | `https://newmaterial.ai/?ref=onepagelove` | page.html (384.9 KB)<br>content.md (7.2 KB)<br>screenshot-full-1440.png (712.8 KB)<br>capture.json | 1440 × 3153 px | **Captured; visual inspection pending** |
 
 ---
 

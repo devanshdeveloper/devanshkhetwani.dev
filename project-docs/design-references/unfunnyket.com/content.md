@@ -7,7 +7,8 @@
 
 # Aniket Chaudhary — Product Engineer
 
-[Button: Aniket ChaudharyProduct Engineer]
+Aniket Chaudhary
+Product Engineer
 
 Desi boy at heart. My first brush with scale was growing sugarcane; then somehow I ended up building software for millions of businesses at Razorpay. Turns out scale transfers. These days, I lead Constantinople's frontend team in India, building AI-native banking systems for the world. I also build Reticket on the side, where fake tickets can’t be listed.
 

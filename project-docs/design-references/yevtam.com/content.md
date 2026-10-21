@@ -5,9 +5,9 @@
 
 ---
 
-[Button: Theme]
-[Button: Play]
-[Button: about]
+Theme
+Play
+about
 
 Matthew Chudnovski
 
@@ -42,7 +42,7 @@ Focus
 Brand systems and launch storytelling
 Output
 Identity rollout, web presence, campaign language
-[Button: Back]
+Back
 ![staya]()
 Chief Marketing Officer
 
@@ -60,8 +60,8 @@ I led marketing and scaled the business from zero to $4M+ in revenue, reaching 5
 ![staya leash and harness laid out in blue]()
 ![Colorful staya straps close-up]()
 ![staya blue harness product poster]()
-[Button: Back]
-[Button: Back]
+Back
+Back
 ![Yandex Market]()
 Head of Brand Strategy
 
@@ -78,8 +78,8 @@ Our team delivered 20+ national campaigns, launched four DTC private labels acro
 ![Kstati private label branding]()
 ![Pragma private label branding]()
 ![Ultima by Yandex Market branding]()
-[Button: Back]
-[Button: Back]
+Back
+Back
 ![Alrosa]()
 Creative Director
 
@@ -131,8 +131,8 @@ Natural Diamonds.com
 ![oh my diamonds visual 13]()
 ![oh my diamonds visual 14]()
 ![oh my diamonds visual 15]()
-[Button: Back]
-[Button: Back]
+Back
+Back
 ![DDB]()
 Senior Strategist
 
@@ -144,8 +144,8 @@ I shaped brand communication, developed campaign platforms, and led creative wor
 
 Alongside client work, I also led new business efforts, helping drive agency growth through pitches and strategic proposals.
 
-[Button: Back]
-[Button: Back]
+Back
+Back
 ![BBDO]()
 Senior Strategic Planner
 
@@ -180,8 +180,8 @@ Red Dot
 ![BBDO campaign still](https://yevtam.com/assets/cases/bbdo/images/image.png)
 ![BBDO IKEA campaign portrait visual](https://yevtam.com/assets/cases/bbdo/images/ikea.png)
 ![BBDO Nike campaign portrait visual](https://yevtam.com/assets/cases/bbdo/images/nike.png)
-[Button: Back]
-[Button: Back]
+Back
+Back
 
 I consult 🤝 collaborate with brands, agencies, and startups 🌎 globally as a fractional marketing 👨🏻‍💻 creative director. I create strategies 🔥 creative solutions that are effective, relevant, and genuinely ❤️ by people.
 
@@ -262,8 +262,8 @@ I consult 🤝 collaborate with brands, agencies, and startups 🌎 globally as 
                         GQ,
                         USA Today,
                         AdWeek
-[Button: Back]
-[Button: Back]
+Back
+Back
 
 I'm excited by the practical side of AI 👨🏻‍💻 development and the way it can turn complex business 💡 challenges into simple, useful 🛠️ tools. I explore opportunities to help 🤝 brands and businesses integrate AI meaningfully from smarter 🧠 customer experiences and internal workflows to creative 🧬 experiments.
 
@@ -290,7 +290,7 @@ I'm excited by the practical side of AI 👨🏻‍💻 development and the way 
 - staya ai studio
                       
                         staya ai studio is a Vite + React + TypeScript image editing app designed for branded photo workflows, including dog replacement, human replacement, and environment generation. It supports masking, reference images, before/after comparisons, local gallery storage via IndexedDB, and AI-powered image generation and editing through backend routes connected to Gemini and the OpenAI Image API.
-[Button: Back]
+Back
 [Telegram](https://t.me/yevtam)
 [LinkedIn](https://www.linkedin.com/in/yevtam/)
 [Email](mailto:matthew.chdn@gmail.com)

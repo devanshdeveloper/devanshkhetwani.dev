@@ -2,9 +2,8 @@
   "requestedUrl": "https://www.f13.com/?ref=onepagelove",
   "finalUrl": "https://www.f13.com/",
   "domain": "f13.com",
-  "slug": "home",
   "pageTitle": "F13",
-  "capturedAt": "2026-10-21T07:56:48.711Z",
+  "capturedAt": "2026-10-21T09:40:12.293Z",
   "viewport": {
     "width": 1440,
     "height": 900,
@@ -14,12 +13,12 @@
   "tool": "Playwright / Chromium (headless)",
   "files": {
     "html": "page.html",
-    "htmlSizeBytes": 333625,
+    "htmlSizeBytes": 333739,
     "markdown": "content.md",
-    "markdownSizeBytes": 6413,
+    "markdownSizeBytes": 6518,
     "screenshot": "screenshot-full-1440.png",
-    "screenshotSizeBytes": 293266
+    "screenshotSizeBytes": 341634
   },
-  "notes": "Query string ?ref=onepagelove stripped. Subdomain www. normalized.",
-  "status": "success"
+  "status": "success",
+  "visualVerification": "pending manual screenshot inspection; capture success does not guarantee all animated or virtualized content is visible"
 }

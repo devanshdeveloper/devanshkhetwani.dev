@@ -2,9 +2,8 @@
   "requestedUrl": "https://yevtam.com/?ref=onepagelove",
   "finalUrl": "https://yevtam.com/",
   "domain": "yevtam.com",
-  "slug": "home",
   "pageTitle": "Matthew Chudnovski",
-  "capturedAt": "2026-10-21T07:56:57.817Z",
+  "capturedAt": "2026-10-21T09:40:22.513Z",
   "viewport": {
     "width": 1440,
     "height": 900,
@@ -16,10 +15,10 @@
     "html": "page.html",
     "htmlSizeBytes": 110955,
     "markdown": "content.md",
-    "markdownSizeBytes": 12272,
+    "markdownSizeBytes": 12102,
     "screenshot": "screenshot-full-1440.png",
-    "screenshotSizeBytes": 202159
+    "screenshotSizeBytes": 202074
   },
-  "notes": "Query string ?ref=onepagelove stripped. Single viewport centered layout.",
-  "status": "success"
+  "status": "success",
+  "visualVerification": "pending manual screenshot inspection; capture success does not guarantee all animated or virtualized content is visible"
 }

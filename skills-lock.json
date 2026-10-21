@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "codex-cli": {
+      "source": "../../pilots/skills-by-devansh",
+      "sourceType": "local",
+      "computedHash": "e339a75cf4fb01da53381c7388840b9fb3f254079bba061d50cce77af73a7409"
+    },
     "create-nextjs-website": {
       "source": "devanshdeveloper/skills-by-devansh",
       "sourceType": "github",
@@ -11,6 +16,12 @@
       "source": "../../pilots/skills-by-devansh",
       "sourceType": "local",
       "computedHash": "f412d6dc90f2334aee3569e588c216c6cec5d96d170492d5875826c2eee14813"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "106acf230014cbb43ca34e6410371321b56ca742f9ee0442e8ec05bf02eb0384"
     },
     "nww": {
       "source": "devanshdeveloper/skills-by-devansh",

@@ -30,7 +30,7 @@ Search
 Boardwalk is a visual library that organises itself. It understands what’s in your images, makes everything searchable, and groups related ideas together automatically. Built for Mac, iPad and iPhone.
 
 Join the waitlist:
-[Button: Join the waitlist:]
+Join the waitlist:
 
 12 Aug→Improved multi-select drag states.
 

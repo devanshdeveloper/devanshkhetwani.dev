@@ -1,0 +1,39 @@
+[
+  {
+    "family": "Bricolage Grotesque",
+    "cssSource": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&display=swap",
+    "licenseSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/OFL.txt",
+    "files": [
+      "BricolageGrotesque-1.woff2"
+    ],
+    "downloadedAt": "2026-10-21T09:49:52.321Z"
+  },
+  {
+    "family": "DM Sans",
+    "cssSource": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap",
+    "licenseSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt",
+    "files": [
+      "DMSans-1.woff2"
+    ],
+    "downloadedAt": "2026-10-21T09:49:52.562Z"
+  },
+  {
+    "family": "IBM Plex Mono",
+    "cssSource": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap",
+    "licenseSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+    "files": [
+      "IBMPlexMono-1.woff2",
+      "IBMPlexMono-2.woff2"
+    ],
+    "downloadedAt": "2026-10-21T09:49:53.073Z"
+  },
+  {
+    "family": "Instrument Serif",
+    "cssSource": "https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400&display=swap",
+    "licenseSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/OFL.txt",
+    "files": [
+      "InstrumentSerif-1.woff2"
+    ],
+    "downloadedAt": "2026-10-21T09:49:53.466Z"
+  }
+]

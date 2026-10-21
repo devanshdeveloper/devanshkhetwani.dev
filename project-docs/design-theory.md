@@ -1,205 +1,158 @@
-# Design Theory & Visual System Specification
+# Design theory — reference-led Gate 2 revision
 
-**Project:** Devansh Khetwani — Personal Developer Portfolio  
-**Target Domain:** `https://devanshkhetwani.dev`  
-**Status:** Pending Gate 2 Human Sign-Off  
-**Created:** 2026-10-21  
+**Project:** Devansh Khetwani, personal developer portfolio  
+**Date:** 2026-10-21  
+**Status:** Awaiting client choice; no palette approved.  
+**Review:** `client-review/gate-2-design-theory/index.html`  
+**Authority:** Approved intake and tech stack, followed by the user's request for fresh concepts and correction that the previous designs did not match the references.
 
----
+## 1. Pattern recognition
 
-## 1. Pattern Recognition Across Live References
+The earlier proposals used wide hero layouts and large display typography. The reference-led revision instead adopts the references' actual content widths, personal introductions, restrained hierarchy, and compact project presentation.
 
-All six client-supplied reference websites were retrieved and inspected live. From this audit, four foundational design patterns emerged that directly inform Devansh Khetwani's personal engineering identity:
+All six live landing pages were recaptured on 2026-10-21. The capture helper now scrolls slowly and records middle and bottom viewport screenshots in addition to the full-page image. Files are in `design-references/<domain>/`.
 
-1. **Precision Hairline Grids & Tactile Containment (Observed in F13 & Tiny Computer):**
-   - Rather than relying on heavy box-shadows, blurry cards, or generic glassmorphism, structure is established using crisp `0.5px` to `1px` hairline boundaries (`border-hairline`) and subtle surface elevation (`bg-surface`, `bg-surface-inset`).
-   - Projects and modules feel like physical software tools and tactile instruments.
+- ByMayo: a compact centered profile, approximately 500px reading column, mixed type in a modest opening, a full-width grid-backed software shelf, and quiet links.
+- Unfunny Ket: a narrow narrative, a small personal identity, marginal links, understated project and experience entries, and dates.
+- Tiny Computer: a serif opening, spacious software presentation, and concise monospaced writing entries. The fresh middle viewport now provides evidence for the writing list even though the full-page capture still hides animated content below the opening.
+- Yev Tam: a centered personal introduction, generous surrounding space, compact top controls, and a tactile navigation dock.
+- F13: precise linework, information graphics, and restrained structure. The refreshed capture reveals additional graphics after slower scrolling.
+- New Material: selective depth and spacing around grouped content. Viewport evidence is used where full-page capture does not faithfully represent scroll-dependent sections.
 
-2. **Dual-Type Hierarchy: High-Legibility Sans + Monospaced Technical Precision (Observed in ByMayo, Unfunny Ket & F13):**
-   - Pairing a friendly, highly readable contemporary sans-serif for story narrative with an authentic monospace font (`JetBrains Mono`) for metadata, architecture parameters, dates, and technology tags.
-   - Communicates that the author is an active software practitioner who values code precision.
+Captured third-party material is internal reference evidence only. All portfolio text, icons, and the DK mark are original. Motion cannot be fully assessed from screenshots, and capture success alone is not treated as proof of visual completeness.
 
-3. **Restrained Neutral Canvas with Singular High-Intent Accent (Observed in F13 & Unfunny Ket):**
-   - 90% of the canvas consists of balanced neutrals (deep slates, crisp charcoals, and clean whites/off-whites in light/dark modes).
-   - A single, energetic accent color is reserved exclusively for primary conversion CTAs, active route states, and key architectural highlights. Accent colors are never used decoratively on generic backgrounds.
+## 2. Design direction by dimension
 
-4. **Grounded First-Person Engineering Storytelling (Observed in Unfunny Ket):**
-   - Direct, authentic narrative connecting self-learning, business applications, and technical growth.
-   - Clean, focused reading column (`max-w-3xl`) where case studies and development milestones take center stage without corporate jargon or agency sales pretense.
-
----
-
-## 2. Design Direction by Dimension
-
-### A. Layout & Structure
-- **Container Architecture:** Standard page wrapper capped at `max-w-5xl` for index/directory grids; reading columns for case studies and blog articles strictly confined to `max-w-3xl` (~70–75 characters per line) for optimal reading comfort.
-- **Rhythm & Spacing:** Strict 8-point spatial grid (`8px`, `16px`, `24px`, `32px`, `48px`, `64px`, `96px`).
-- **Tactile Grid Accents:** Optional subtle hairline guides on outer margins to anchor page sections without cluttering content.
-
-### B. Color Direction & Palette Options
-Devansh requested 2–3 palette directions with exact HEX values for comparison before final selection at Gate 2:
-
-#### Palette Direction 1 (Recommended — "Precision Slate & Signal Amber")
-*Inspired by F13 and Tiny Computer: Confident engineering contrast, warm tactile feel, high recruiter readability.*
-- **Light Theme:**
-  - Background: `#F8F9FA` (Clean off-white canvas)
-  - Surface: `#FFFFFF` (Crisp elevated white panels)
-  - Surface Inset / Hover: `#F1F3F5`
-  - Border Hairline: `#E2E8F0` (Delicate slate border)
-  - Text Primary (Ink): `#0F172A` (Deep slate black — Contrast 15.8:1, AAA)
-  - Text Muted: `#64748B` (Medium slate — Contrast 4.9:1, AA)
-  - Accent (Signal Amber): `#F59E0B` (Vibrant amber for CTAs & highlights)
-  - Accent Foreground: `#000000` (Bold contrast on amber)
-- **Dark Theme:**
-  - Background: `#0B0F17` (Deep slate noir)
-  - Surface: `#131B2A` (Elevated dark slate surface)
-  - Surface Inset / Hover: `#1E293B`
-  - Border Hairline: `#1E293B`
-  - Text Primary: `#F8FAFC` (Clean off-white — Contrast 16.2:1, AAA)
-  - Text Muted: `#94A3B8` (Muted slate — Contrast 5.2:1, AA)
-  - Accent: `#FBBF24` (Luminous warm amber)
-  - Accent Foreground: `#000000`
-
-#### Palette Direction 2 ("Graphite & Kinetic Emerald")
-*Inspired by Unfunny Ket and ByMayo: Developer-native, minimal, crisp tech-focused.*
-- **Light Canvas:** `#F5F5F7` \| Surface: `#FFFFFF` \| Border: `#E5E5E7` \| Text: `#111827` \| Accent: `#059669` (Emerald Green)
-- **Dark Canvas:** `#121214` \| Surface: `#1A1A1E` \| Border: `#27272A` \| Text: `#F4F4F5` \| Accent: `#10B981` (Bright Emerald)
-
-#### Palette Direction 3 ("Editorial Monochrome & Electric Cobalt")
-*Inspired by New Material: Modern digital studio, high contrast, editorial framing.*
-- **Light Canvas:** `#FAFAFA` \| Surface: `#FFFFFF` \| Border: `#E4E4E7` \| Text: `#18181B` \| Accent: `#2563EB` (Cobalt Blue)
-- **Dark Canvas:** `#09090B` \| Surface: `#18181B` \| Border: `#27272A` \| Text: `#FAFAFA` \| Accent: `#3B82F6` (Electric Blue)
-
-### C. Typography Direction
-Using Google Fonts via `next/font/google`:
-- **Display & Headings:** **`Plus Jakarta Sans`** (Geometric, clean, confident; distinct from generic Inter while preserving elite readability).
-- **Body & Case Study Prose:** **`Inter`** (Industry-standard editorial clarity for dense engineering narratives, problem-solution breakdowns, and recruiter review).
-- **Code, Numbers & Metadata:** **`JetBrains Mono`** (Crisp tabular numerals, technology badges, timeline dates, and code blocks).
-
-### D. Imagery & Visual Assets
-- **Personal Wordmark & Monogram:**
-  - *Primary Wordmark:* Typographic "Devansh Khetwani" in `Plus Jakarta Sans` Medium with tight letter-spacing (`tracking-tight`) and a subtle accent period or micro-tag.
-  - *Secondary Monogram:* Distinctive geometric "DK" mark enclosed in a rounded hairline container, functional at 16px favicon up to 64px header mark.
-- **Project Visuals:** Real screenshots framed in clean browser/desktop viewports with subtle `0.5px` hairline borders. Sensitive customer and financial data strictly redacted.
-- **Architecture Diagrams:** Hand-crafted semantic SVG flow diagrams illustrating multi-tenant ERP boundaries, client-side Web Worker PDF pagination, and ISR caching pipelines.
-- **Icons:** Lucide React with clean `1.5px` stroke weight.
-
-### E. Motion Direction (`subtle-gsap`)
-- **Restraint Rule:** Static by design. No continuous background animations, no scroll hijacking, and no gratuitous entrance fades applied uniformly to every element.
-- **Micro-Interactions:** Snappy hover elevation (150ms–200ms) on project cards, smooth button active states, and crisp focus rings.
-- **Bold Moment:** One memorable interactive moment: an interactive **Architecture Exploration Drawer** or **Interactive Case Study Filter** where selecting a project dynamically highlights its architectural flow.
-- **Accessibility:** Strict `@media (prefers-reduced-motion: reduce)` override disabling transform animations and enforcing instant state changes.
-
-### F. Voice & Tone (Binding Copywriting Rules)
-1. **Grounded & Verifiable:** State real responsibilities, actual tech stacks, and factual timelines (started March 2023, BCA Aug 2026, MCA expected Sept 2028).
-2. **Individual Engineer Perspective:** Always write in first-person ("I architected", "I evaluated", "I learned"). Never pretend to be an agency or corporate sales team.
-3. **Problem-Solution Focused:** Every project case study documents the real business context, technical trade-offs, challenges encountered, and solutions engineered.
-4. **Banned Clichés:** Zero instances of "rockstar", "ninja", "10x", "tech wizard", "passionate coder", "world-class", "game-changing", "seamless solutions", or unverified claims of "scalable applications".
-
----
-
-## 3. Design Tokens (Tailwind CSS Mappings)
-
-### A. Color Tokens (Configured for Direction 1 - Slate & Signal Amber)
-```css
-:root {
-  --bg-canvas: #F8F9FA;
-  --bg-surface: #FFFFFF;
-  --bg-surface-inset: #F1F3F5;
-  --border-hairline: #E2E8F0;
-  --text-primary: #0F172A;     /* WCAG AAA: 15.8:1 */
-  --text-muted: #64748B;       /* WCAG AA: 4.9:1 */
-  --text-faint: #94A3B8;       /* Large text / micro-labels: 3.1:1 */
-  --accent: #F59E0B;           /* Primary interactive accent */
-  --accent-hover: #D97706;
-  --accent-fg: #000000;
-  --focus-ring: #F59E0B;
-}
-
-[data-theme="dark"] {
-  --bg-canvas: #0B0F17;
-  --bg-surface: #131B2A;
-  --bg-surface-inset: #1E293B;
-  --border-hairline: #1E293B;
-  --text-primary: #F8FAFC;     /* WCAG AAA: 16.2:1 */
-  --text-muted: #94A3B8;       /* WCAG AA: 5.2:1 */
-  --text-faint: #64748B;
-  --accent: #FBBF24;
-  --accent-hover: #F59E0B;
-  --accent-fg: #000000;
-  --focus-ring: #FBBF24;
-}
-```
-
-### B. Typography Scale & Hierarchy
-- **`display`**: `text-4xl sm:text-5xl font-bold tracking-tight leading-tight` (36px / 48px)
-- **`h1`**: `text-3xl sm:text-4xl font-semibold tracking-tight leading-tight` (30px / 36px)
-- **`h2`**: `text-2xl sm:text-3xl font-semibold tracking-tight leading-snug` (24px / 30px)
-- **`h3`**: `text-xl sm:text-2xl font-medium tracking-normal leading-snug` (20px / 24px)
-- **`body-large`**: `text-lg leading-relaxed` (18px)
-- **`body`**: `text-base leading-relaxed` (16px — minimum on mobile)
-- **`caption`**: `text-sm leading-normal text-muted` (14px)
-- **`mono`**: `font-mono text-xs sm:text-sm tracking-wide` (12px / 14px)
-
-*Mobile & Accessibility Guarantee:* All body copy >= 16px. All interactive buttons, links, and navigation items satisfy minimum 44×44px tap targets.
-
-### C. Spacing, Radii & Elevation
-- **Spacing Steps:** `8px`, `16px`, `24px`, `32px`, `48px`, `64px`, `96px`
-- **Border Radii:**
-  - Micro tags / pills: `rounded-full` or `rounded-md` (6px)
-  - Cards & Viewports: `rounded-xl` (12px)
-  - Modals & Drawers: `rounded-2xl` (16px)
-- **Shadow Tokens:**
-  - Subtle Surface: `0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.04)`
-  - Elevated Card: `0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05)`
-
-### D. Dual Motion Tokens (`site/lib/motion.js`)
-
-| Token Name | CSS / Tailwind Curve | GSAP Value | Duration | Purpose |
-|---|---|---|---|---|
-| **`motion.fast`** | `cubic-bezier(0.16, 1, 0.3, 1)` | `"power2.out"` | `0.15s` | Button hover, tap states, icon shifts |
-| **`motion.standard`** | `cubic-bezier(0.2, 0, 0, 1)` | `"power3.out"` | `0.3s` | Card reveal, tab toggle, drawer open |
-| **`motion.deliberate`**| `cubic-bezier(0.16, 1, 0.3, 1)` | `"power4.out"` | `0.6s` | Case study hero entrance, bold moment |
-
----
-
-## 4. What to Avoid (Anti-Patterns)
-
-- **NO Purple SaaS Gradients:** Ban uniform purple/indigo gradients common in AI landing page templates.
-- **NO Fake Terminal Windows:** Avoid decorative Linux terminal windows with animated typing that serve no engineering purpose.
-- **NO Skill Percentage Bars:** Never display arbitrary bars claiming "React: 95%, Python: 85%". Experience is proven via case studies and architecture decisions.
-- **NO Scroll Hijacking or Loading Screens:** Native browser scrolling must remain 100% uninterrupted.
-- **NO Low-Contrast Gray Copy:** All body copy strictly satisfies WCAG AA (minimum 4.5:1).
-- **NO Uniform Entrance Fades:** Avoid stagger fades applied blindly to every paragraph.
-
----
-
-## 5. Brand Positioning Alignment
-
-| Brand Personality Dimension | Confirmed Score | Visual Manifestation in Design System |
+| Candidate | Reference anchor | Concrete layout translation |
 |---|---|---|
-| **Minimal ↔ Maximal** | **3 / 5 (Balanced)** | Clean whitespace with rich, detailed case study content and architecture diagrams. |
-| **Corporate ↔ Playful** | **4 / 5 (Personal & Creative)** | Warm typography, bespoke wordmark, authentic first-person storytelling, engaging micro-interactions. |
-| **Luxury ↔ Accessible** | **4 / 5 (Accessible & Grounded)** | High-contrast typography, generous line-heights, honest self-taught journey narrative, zero elitist jargon. |
-| **Modern ↔ Classic** | **4 / 5 (Modern with Editorial Polish)** | Precision hairline grid layout, clean Grotesk headings, structured case study reading columns. |
+| **Maker’s Desk** | ByMayo, supported by Tiny Computer | 560px centered profile; a 36px sans / 42px serif opening; a grid-backed, two-group product shelf; 16px project entries and a compact chronology. |
+| **Engineering Notes** | Unfunny Ket | 580px reading column within 620px guide rails; a 24px narrative H1; small identity artwork; marginal social links; project entries with dates and minimal enclosure. |
+| **Personal Canvas** | Yev Tam, with New Material / F13 restraint | A centered introduction spanning the first viewport, a 94px original identity seal, a 52px headline, a functional icon dock, then a 760px work-and-journey section. |
 
----
+**Layout:** Each concept has its own reading pace and composition. Mobile gutters are 20px, guide rails and marginalia disappear on narrow screens, and the dock stays within a 320px viewport. No fixed navigation obscures content.
 
-## 6. Reference Summary & Inspiration Audit
+**Typography:** DM Sans carries headings and body copy. Maker’s Desk contrasts its opening with Instrument Serif. IBM Plex Mono is limited to small dates and technical metadata. Fonts are locally hosted for offline review; Stage 9 can use the same Google Font families through `next/font/google`.
 
-| Website URL | What Client Liked | Key Observed Elements | Carried Into Devansh's Design Direction |
-|---|---|---|---|
-| [`https://bymayo.co.uk/`](https://bymayo.co.uk/) | Clean typography, dark/light balance | `PP Neue Montreal` + `IBM Plex Mono`, soft `#161819` and `#d6d8d0` tones | Adopted dual sans/mono pairing and balanced dark/light surface elevations. |
-| [`https://unfunnyket.com/`](https://unfunnyket.com/) | Authentic tone, focused reading | `max-w-[620px]` column, hairline grid lines, grounded narrative, project dates | Adopted focused reading column, hairline framing, and authentic project timeline structure. |
-| [`https://tinycomputer.co/`](https://tinycomputer.co/) | Tactile software feel, clean catalog | Baseline grid, macOS window chrome, panel ring shadows, concise tagline | Adopted tactile card frames for software projects (ERP & PDF generator). |
-| [`https://www.f13.com/`](https://www.f13.com/) | Precision graphics, sharp accent | Hairline borders (`0.5px`), modular pill nav, signal amber accent (`#ffcf22`), clean SVG schematics | Adopted hairline border precision, vibrant CTA accent color, and schematic diagram standards. |
-| [`https://yevtam.com/`](https://yevtam.com/) | Smooth GSAP interactions, theme switch | MorphSVG transitions, clean theme switcher, dual avatar light/dark | Adopted GSAP token structure, smooth theme toggle, and dual portrait handling. |
-| [`https://newmaterial.ai/`](https://newmaterial.ai/) | High-fidelity cards, image treatment | Responsive picture elements, smooth view transitions, tactile hover | Adopted zero-CLS responsive image standards and clean card hover depth. |
+**Imagery and identity:** The wordmark uses Devansh's full name. An original outlined DK is the secondary identity. App-like icons represent invoices, education, documents, writing, contact, and a personal profile. They are symbols, not screenshots or official product logos. No fictional portrait or dashboard is used. A real portrait can replace the identity seal when supplied.
 
----
+**Content sequence:** Introduction → selected work → experience/education → writing drafts → direct email. Maker’s Desk introduces project categories through its shelf; Engineering Notes puts most emphasis on continuous reading; Personal Canvas uses the dock to navigate to fully visible sections below.
 
-## 7. Open Gate 2 Decisions
+**Motion:** Content is visible immediately. Only the Maker’s Desk shelf and Personal Canvas dock respond to hover with a small transform; the project notes use native disclosures. Reduced-motion preferences disable transitions and smooth scrolling. No global entrance animation or artificial loading state.
 
-1. **Palette Selection:** Confirm **Direction 1 (Precision Slate & Signal Amber)** as the active palette, or select **Direction 2 (Kinetic Emerald)** or **Direction 3 (Electric Cobalt)**.
-2. **Typography Pairing:** Confirm **`Plus Jakarta Sans`** (Headings) + **`Inter`** (Body) + **`JetBrains Mono`** (Code & Metadata).
-3. **Brand Mark:** Confirm typographic wordmark "Devansh Khetwani" + secondary rounded monogram "DK".
+**Voice:** Individual, factual, and plain. Production claims are limited to one Next Web Business customer account with 50+ sub-users. Next Web Campus remains in development with zero production institutions. Writing remains draft. The final case-study narrative and copy require Gate 6 review.
+
+## 3. Design tokens
+
+Semantic CSS keys are `bg`, `surface`, `soft`, `text`, `muted`, `accent`, `onAccent`, and `line`. The complete proposals follow. Decorative lines do not convey essential information; focus rings use the accent color.
+
+### Maker’s Desk
+
+| Token | Light | Dark |
+|---|---|---|
+| `bg` | #DADDD5 | #20251F |
+| `surface` | #E7E9E2 | #2A3228 |
+| `soft` | #E0E4DA | #313B2E |
+| `text` | #272C28 | #EFF1E8 |
+| `muted` | #555D54 | #BBC2B6 |
+| `accent` | #843C25 | #E3A47E |
+| `onAccent` | #FFFFFF | #302117 |
+| `line` | #BBC2B6 | #4D5B46 |
+
+### Engineering Notes
+
+| Token | Light | Dark |
+|---|---|---|
+| `bg` | #F6F6F8 | #1D2027 |
+| `surface` | #FFFFFF | #272B34 |
+| `soft` | #E8EAF0 | #303641 |
+| `text` | #26282E | #E8EBF2 |
+| `muted` | #626570 | #B9C0CF |
+| `accent` | #883659 | #EBA5C4 |
+| `onAccent` | #FFFFFF | #351D29 |
+| `line` | #DFE1E8 | #454D5C |
+
+### Personal Canvas
+
+| Token | Light | Dark |
+|---|---|---|
+| `bg` | #F4F5F2 | #172823 |
+| `surface` | #FFFFFF | #223A32 |
+| `soft` | #E4E9E2 | #2C453A |
+| `text` | #28302C | #EBF1E8 |
+| `muted` | #5B655F | #B8CABC |
+| `accent` | #1B6657 | #A7D5C1 |
+| `onAccent` | #FFFFFF | #1B322A |
+| `line` | #CCD4CC | #4C695A |
+
+### Type, spacing, and shape
+
+| Role | Desktop | Mobile |
+|---|---|---|
+| Maker’s Desk H1 | 36px DM Sans / 42px Instrument Serif | 24–27px / 30–34px |
+| Engineering Notes H1 | 24px, 1.55 line height | 22px |
+| Personal Canvas H1 | 52px, 1.08 line height | 34–46px fluid |
+| Section heading | 13px quiet label, or 20–25px heading | Same hierarchy |
+| Project title | 16–20px | 16–18px |
+| Body | 16px, 1.65 line height | 16px |
+| Opening paragraph | 22px where used | 20px |
+| Secondary intro | 15–16px in this prototype | 15–16px; raise body-like text to 16px before production |
+| Caption / date | 11–13px | 11–13px |
+
+Spatial rhythm: 8, 16, 24, 32, 40, 48, and 64px, with optical 4px half-steps. Reading widths are 560px, 580px, and 760px by concept. Avoid expanding all pages to a generic 1200px content grid.
+
+Panel radii are purposeful: 19px icon tiles, 28–42px category enclosures, 24px dock, 8px text fields. Paper/identity details use thin borders. Shadows appear only on tactile icons and the dock: inset highlight plus a small `0 3px 5px #00000012` shadow, or `0 12px 28px #0000000c` for the dock.
+
+Future asset ratios: project images 4:3 where appropriate, portrait 4:5, blog cover 16:9. Preserve real UI screenshot aspect ratios instead of hiding important details through forced crops. Production icons may use Lucide at 1.5px stroke; the concept icons are original SVGs with explicit accessible link labels.
+
+### Contrast and interaction
+
+`client-review/gate-2-design-theory/_checks/contrast.json` records 60 token pairings across three concepts and both themes: main, muted, and accent text on canvas/surface/soft, plus action text on accent. All exceed 4.5:1. Native buttons, disclosure controls, and dock links use at least 44px target height. The automated accessibility results are in `_checks/qa.json`.
+
+### Dual motion tokens
+
+| Token | CSS curve | GSAP value | Duration | Use |
+|---|---|---|---|---|
+| `motion-fast` | `--ease-fast: cubic-bezier(0.215,0.61,0.355,1)` | `power2.out` | 0.18s | Shelf hover response |
+| `motion-standard` | `--ease-standard: cubic-bezier(0.165,0.84,0.44,1)` | `power3.out` | 0.20s | Dock hover response |
+| `motion-deliberate` | `--ease-deliberate: cubic-bezier(0.23,1,0.32,1)` | `power4.out` | 0.40s | Reserved for one approved interaction, not used in this preview |
+
+CSS curves approximate the GSAP eases perceptually. Duration variables are `--duration-fast:180ms`, `--duration-standard:200ms`, and `--duration-deliberate:400ms`. Reduced-motion duration is zero. Export the selected tokens to `site/lib/motion.js` at Stage 9. This static review does not load GSAP.
+
+## 4. What to avoid
+
+- Large generic portfolio headlines, broad hero-and-card compositions, and oversized contact sections that change the reference character.
+- Treating color selection as a substitute for matching proportions, density, and navigation behavior.
+- Reusing third-party graphics, portrait imagery, text, source code, or brand marks.
+- Fake terminals, invented skill percentages, scroll hijacking, repeated entrance animations, and heavy WebGL scenes.
+- Fabricated architecture, customer metrics, screenshots, testimonials, or experience duration. Self-learning began in March 2023.
+- Presenting a draft article as published or offering an unavailable resume download.
+
+## 5. Brand positioning
+
+The approved scale remains balanced (3/5 minimal–maximal), personal and creative (4/5 corporate–playful), accessible (4/5 toward accessible), and modern (4/5 modern–classic). Curiosity appears in the work and learning narrative, inventiveness in original icon and identity details, and groundedness in restrained type and truthful project status.
+
+The choices are deliberately personal portfolios rather than agency presentations. Next Web Works appears as freelance experience.
+
+## 6. Open decisions and delivery
+
+- Select Maker’s Desk, Engineering Notes, or Personal Canvas, or request a revision. Palette, typography, and identity treatment are included in the selection.
+- No Gate 2 approval has been inferred. Stage 3 has not begun.
+- Portrait, real project screenshots, Next Web Agency release status, detailed case-study evidence, and final resume remain later inputs. Their absence does not require fabricated assets for visual review.
+- Preview and verification helpers now live in `.agents/skills/create-nww-website/scripts/client-review/`. Project-specific HTML/CSS stays in `project-docs/client-review/`. Supplementary Gate 2 plans and reports live in `gate-2-design-theory/_checks/`.
+- The user requested removal of the obsolete `project-docs/review-tools` folder. Automatic command review rejected both the guarded and the literal recursive removal with “blocked by policy”; that folder remains and is no longer used.
+- Local preview only. No publishing, CMS changes, or new email notification in this revision.
+- Browser verification covers 320, 390, 768, 1024, and 1440px; light/dark scans on desktop and mobile; keyboard disclosure operation; offline file loading without JavaScript; theme persistence; clipboard fallback; local links; and asset errors. Automated WCAG A/AA scans report no violations. This is a prototype check, not a full production accessibility audit.
+
+## 7. Reference summary
+
+| Reference | Evidence used | Adopted qualities |
+|---|---|---|
+| https://bymayo.co.uk/ | Fresh full-page capture | Compact profile, mixed heading typography, restrained software shelf, whitespace. |
+| https://unfunnyket.com/ | Fresh full-page capture | Narrative introduction, narrow reading column, dated experience, marginal links. |
+| https://tinycomputer.co/ | Opening and fresh middle/bottom viewport captures | Editorial type and concise writing list. Full-page image alone remains incomplete. |
+| https://www.f13.com/ | Fresh full-page and viewport captures | Restrained lines, clear information grouping, original symbolic graphics. |
+| https://yevtam.com/ | Fresh single-viewport capture | Centered personal introduction, compact controls, tactile dock. |
+| https://newmaterial.ai/ | Fresh full-page and viewport captures | Selective depth and generous grouping, without reusing image assets. |
+
+Raw evidence and capture metadata remain in `project-docs/design-references/`. The client-facing review uses original visuals only.
+

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "deny": [
+      ".env*",
+      "*.pem",
+      "*.key",
+      "*.pfx",
+      "git push --force*",
+      "git reset --hard*",
+      "git clean -f*",
+      "rm -rf*"
+    ]
+  }
+}

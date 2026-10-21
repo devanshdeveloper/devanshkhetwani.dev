@@ -1,0 +1,31 @@
+# Codex Execution Policy Rules
+# Starlark prefix rules governing non-sandboxed and dangerous shell executions.
+
+prefix_rule(
+    pattern = ["git", ["push", "reset", "clean"]],
+    decision = "prompt",
+    justification = "Git destructive and remote actions require human confirmation",
+    match = [
+        "git push --force origin main",
+        "git reset --hard HEAD~1",
+        "git clean -fd",
+    ],
+    not_match = [
+        "git status",
+        "git diff",
+        "git log -n 5",
+    ],
+)
+
+prefix_rule(
+    pattern = [["rm", "del", "rmdir"]],
+    decision = "prompt",
+    justification = "File deletion commands require explicit human authorization",
+    match = [
+        "rm -rf node_modules",
+        "del /s project-docs",
+    ],
+    not_match = [
+        "node project-docs/review-tools/build.mjs",
+    ],
+)

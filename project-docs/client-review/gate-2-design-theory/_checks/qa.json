@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-21T10:00:35.125Z",
+  "browser": "Chrome via Playwright",
+  "checks": [
+    "field-notes: no horizontal overflow at 320px",
+    "field-notes: no horizontal overflow at 390px",
+    "field-notes: no horizontal overflow at 768px",
+    "field-notes: no horizontal overflow at 1024px",
+    "field-notes: no horizontal overflow at 1440px",
+    "field-notes: themes persist; disclosure works; offline copy fallback selects decision; theme target >=44px",
+    "field-notes: file:// offline load and native disclosures work without JavaScript",
+    "open-form: no horizontal overflow at 320px",
+    "open-form: no horizontal overflow at 390px",
+    "open-form: no horizontal overflow at 768px",
+    "open-form: no horizontal overflow at 1024px",
+    "open-form: no horizontal overflow at 1440px",
+    "open-form: themes persist; disclosure works; offline copy fallback selects decision; theme target >=44px",
+    "open-form: file:// offline load and native disclosures work without JavaScript",
+    "working-index: no horizontal overflow at 320px",
+    "working-index: no horizontal overflow at 390px",
+    "working-index: no horizontal overflow at 768px",
+    "working-index: no horizontal overflow at 1024px",
+    "working-index: no horizontal overflow at 1440px",
+    "working-index: themes persist; disclosure works; offline copy fallback selects decision; theme target >=44px",
+    "working-index: file:// offline load and native disclosures work without JavaScript",
+    "/gate-2-design-theory/index.html: local navigation and responsive layouts pass",
+    "/index.html: local navigation and responsive layouts pass",
+    "/credits.html: local navigation and responsive layouts pass",
+    "No browser JavaScript errors or HTTP asset errors."
+  ],
+  "violations": [],
+  "browserErrors": []
+}

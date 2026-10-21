@@ -6,7 +6,7 @@
 ---
 
 [Join waitlist](https://www.f13.com/#join)
-[Button: Menu]
+Menu
 [Blog(01)](https://www.f13.com/blog)
 [Contact us(02)](https://www.f13.com/#contact)
 [Join waitlist](https://www.f13.com/#join)
@@ -213,8 +213,6 @@ Show 96.2% service uptime on a precise radial gauge.
 Illustrate the top half of the human skeleton with the mandible, humerus, and pelvis labeled.
 Visualize a neural network from inputs through hidden layers to outputs.
 
-Explain sine and cosine geometrically with a unit circle and linked curves.
-
 Plot Taipei’s daily air quality from 08/31 to 09/14 as a candlestick chart, highlighting 09/09.
 
 Create a simple product sheet for a bike in our brand’s design system with four feature callouts.
@@ -223,7 +221,9 @@ Break down a typical soft drink’s ingredients with an infographic.
 
 Show 96.2% service uptime on a precise radial gauge.
 
-[Button: Join waitlist]
+Illustrate the top half of the human skeleton with the mandible, humerus, and pelvis labeled.
+
+Join waitlist
 [Scroll Down](https://www.f13.com/#capabilities)
 
 +
@@ -238,7 +238,11 @@ Show 96.2% service uptime on a precise radial gauge.
 
 Frontier image models excel at expressive imagery, but professional work demands more: true-to-spec visuals grounded in reality. F13's models are built for scenarios requiring speed, precision and clarity.
 
-[Button: 01 - FastArrives in seconds.(-)]
+01
+-
+Fast
+Arrives in seconds.
+(-)
 
 +
 
@@ -246,7 +250,11 @@ Responses arrive in seconds, not minutes.
 
 +
 
-[Button: 02 - AccurateGrounded in real information.(+)]
+02
+-
+Accurate
+Grounded in real information.
+(+)
 
 +
 
@@ -254,7 +262,11 @@ Outputs are faithful to data and specifications — grounded in information from
 
 +
 
-[Button: 03 - On brandTrue to your design specs.(+)]
+03
+-
+On brand
+True to your design specs.
+(+)
 ![Deck slide set in Helvetica](https://www.f13.com/_next/image?url=%2Fcapabilities%2Fbrand%2F1.jpg&w=3840&q=75&dpl=dpl_BUZZuRHLz4r4Wie12stEW9JFxpbY)
 A2 Beckett
 Serif columns
@@ -272,7 +284,11 @@ Feed in your design system and get back on-brand material.
 
 +
 
-[Button: 04 - EditableClean, controllable vectors under the hood.(+)]
+04
+-
+Editable
+Clean, controllable vectors under the hood.
+(+)
 
 +
 
@@ -311,18 +327,32 @@ Insert fast and accurate visuals in your product.
 ![AI chat displaying a humanoid robot infographic in response to a prompt.](https://www.f13.com/solutions/ai-assistants.svg?dpl=dpl_BUZZuRHLz4r4Wie12stEW9JFxpbY)
 ![How Neural Networks Work presentation slide with four numbered concepts and a network diagram.](https://www.f13.com/solutions/presentations.svg?dpl=dpl_BUZZuRHLz4r4Wie12stEW9JFxpbY)
 ![Human skeleton graphic with numbered callouts for the mandible, humerus, and pelvis.](https://www.f13.com/solutions/products-applications.svg?dpl=dpl_BUZZuRHLz4r4Wie12stEW9JFxpbY)
-[Button: AI AssistantsEmbed graphics in your AI assistant.]
-[Button: DocumentsCreate on-brand documents grounded in your context.]
-[Button: Products & ApplicationsInsert fast and accurate visuals in your product.]
+AI Assistants
+Embed graphics in your AI assistant.
+Documents
+Create on-brand documents grounded in your context.
+Products & Applications
+Insert fast and accurate visuals in your product.
 
 ## Get in touch.
 
 Tell us what you need or reach out with any questions.
 
-[Button: Join waitlistSend]
+Join waitlist
+Send
 ![F13](https://www.f13.com/f13-mark.svg?dpl=dpl_BUZZuRHLz4r4Wie12stEW9JFxpbY)
 [Contact](mailto:support@f13.com)
 [Careers](https://www.f13.com/jobs)
 [Privacy](https://www.f13.com/privacy)
 [Terms](https://www.f13.com/terms)
 [Imprint](https://www.f13.com/imprint)
+Cookies
+
+Cookie settings
+
+Customize
+
+We use cookies to deliver and improve our services, analyze usage, and, if you agree, personalize your experience.
+
+Reject All
+Accept All

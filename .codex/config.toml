@@ -1,0 +1,19 @@
+# Codex Project Configuration
+# Note: This project configuration is loaded by OpenAI Codex only when the repository
+# is marked as trusted (e.g. in ~/.codex/config.toml).
+
+# Default model recommendation
+model = "gpt-6.1-sol"
+
+# Sandbox execution mode: "read-only", "workspace-write", "danger-full-access"
+sandbox_mode = "workspace-write"
+
+# Approval policy: "on-request" (default), "never"
+approval_policy = "on-request"
+
+[features]
+hooks = true
+
+[skills]
+# Context token budget for discovering initial skill list (default: 4000)
+max_context_tokens = 4000
