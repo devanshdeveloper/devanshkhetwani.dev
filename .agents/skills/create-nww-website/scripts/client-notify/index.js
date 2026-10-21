@@ -79,6 +79,48 @@ function parseClientDetails() {
   };
 }
 
+function getGate2OptionsSummary(projRoot) {
+  try {
+    const gate2Dir = path.join(projRoot, 'project-docs', 'client-review', 'gate-2-design-theory');
+    if (fs.existsSync(gate2Dir)) {
+      const dirs = fs.readdirSync(gate2Dir, { withFileTypes: true })
+        .filter(d => d.isDirectory() && !d.name.startsWith('.') && !d.name.startsWith('_'))
+        .map(d => d.name);
+      if (dirs.length > 0) {
+        const conceptList = dirs.map(dir => {
+          const htmlPath = path.join(gate2Dir, dir, 'index.html');
+          let title = dir;
+          let desc = '';
+          let order = 999;
+          if (fs.existsSync(htmlPath)) {
+            const html = fs.readFileSync(htmlPath, 'utf-8');
+            const titleMatch = html.match(/<title>([^<]+)<\/title>/i);
+            const h1Match = html.match(/<h1[^>]*>([^<]+)<\/h1>/i);
+            const leadMatch = html.match(/<p class="lead">([^<]+)<\/p>/i);
+            const rawTitle = titleMatch ? titleMatch[1].trim() : (h1Match ? h1Match[1].trim() : dir);
+            title = rawTitle;
+            if (leadMatch) desc = ` (${leadMatch[1].trim().replace(/\.$/, '')})`;
+            const numMatch = rawTitle.match(/(?:concept|option)[-\s]*(\d+)/i) || dir.match(/(?:concept|option)[-\s]*(\d+)/i);
+            if (numMatch) order = parseInt(numMatch[1], 10);
+          }
+          return { title, desc, order, dir };
+        });
+
+        conceptList.sort((a, b) => {
+          if (a.order !== b.order) return a.order - b.order;
+          return a.dir.localeCompare(b.dir);
+        });
+
+        return conceptList.map(c => `  • ${c.title}${c.desc}`).join('\n');
+      }
+    }
+  } catch (_) {}
+
+  return `  • Option 1: Minimal Slate & Signal Amber (Grounded engineering canvas)\n` +
+         `  • Option 2: Technical Obsidian & Laser Cyan (High-contrast developer theme)\n` +
+         `  • Option 3: Editorial Sand & Deep Burgundy (Warm editorial and refined typography)`;
+}
+
 function getStageTemplate(stage, context) {
   const { projectName, clientName, reviewUrl } = context;
 
@@ -106,9 +148,7 @@ function getStageTemplate(stage, context) {
       action: 'Experience the 3 full-page design concepts and choose your preferred visual identity (Option 1, 2, or 3).',
       deliverable: reviewUrl || 'project-docs/client-review/gate-2-design-theory/index.html',
       summary: `We have developed 3 distinct full-page website design directions for your review:\n` +
-               `  • Option 1: Maker’s Desk (ByMayo-led compact profile, product shelf, and quiet notes)\n` +
-               `  • Option 2: Engineering Notes (Unfunny Ket-led personal reading column and chronology)\n` +
-               `  • Option 3: Personal Canvas (Yev Tam-led centered introduction and tactile navigation dock)\n\n` +
+               `${getGate2OptionsSummary(projectRoot)}\n\n` +
                `Each option features complete, realistic portfolio content, real project showcases, timeline, and an interactive review bar.`
     },
     3: {
