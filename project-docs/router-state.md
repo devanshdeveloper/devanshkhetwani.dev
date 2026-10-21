@@ -2,7 +2,7 @@
 
 **Project:** Devansh Khetwani — Personal Developer Portfolio  
 **Current Stage:** Stage 2 (Design Theory)  
-**Gate Status:** Gate 2 Awaiting Client Decision (via project-docs/client-review/gate-2-design-theory/index.html)  
+**Gate Status:** Gate 2 Awaiting Client Decision (via https://devanshdeveloper.github.io/devanshkhetwani.dev/gate-2-design-theory/ or local project-docs/client-review/gate-2-design-theory/index.html)  
 **CMS Mode:** cms  
 **CMS Target:** `https://prod-server.nextwebworks.in` (via `SERVER_URL`)  
 **Webhook Status:** pending  
