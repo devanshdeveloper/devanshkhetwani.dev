@@ -1,0 +1,25 @@
+{
+  "requestedUrl": "https://tinycomputer.co/?ref=onepagelove",
+  "finalUrl": "https://tinycomputer.co/",
+  "domain": "tinycomputer.co",
+  "slug": "home",
+  "pageTitle": "Tiny Computer Co. — A small, independent software studio",
+  "capturedAt": "2026-10-21T07:56:40.685Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "fullPage": true,
+    "actualRenderedHeight": 3367
+  },
+  "tool": "Playwright / Chromium (headless)",
+  "files": {
+    "html": "page.html",
+    "htmlSizeBytes": 829991,
+    "markdown": "content.md",
+    "markdownSizeBytes": 1601,
+    "screenshot": "screenshot-full-1440.png",
+    "screenshotSizeBytes": 113734
+  },
+  "notes": "Query string ?ref=onepagelove stripped. Minimal software studio showcase.",
+  "status": "success"
+}

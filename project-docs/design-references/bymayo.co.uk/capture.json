@@ -1,0 +1,25 @@
+{
+  "requestedUrl": "https://bymayo.co.uk/?ref=onepagelove",
+  "finalUrl": "https://bymayo.co.uk/",
+  "domain": "bymayo.co.uk",
+  "slug": "home",
+  "pageTitle": "ByMayo — Jason Mayo, Creative Developer",
+  "capturedAt": "2026-10-21T07:56:28.395Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "fullPage": true,
+    "actualRenderedHeight": 1223
+  },
+  "tool": "Playwright / Chromium (headless)",
+  "files": {
+    "html": "page.html",
+    "htmlSizeBytes": 59232,
+    "markdown": "content.md",
+    "markdownSizeBytes": 658,
+    "screenshot": "screenshot-full-1440.png",
+    "screenshotSizeBytes": 125448
+  },
+  "notes": "Query string ?ref=onepagelove stripped (referral tracker). Page rendered without cookie gate.",
+  "status": "success"
+}

@@ -1,0 +1,25 @@
+{
+  "requestedUrl": "https://newmaterial.ai/?ref=onepagelove",
+  "finalUrl": "https://newmaterial.ai/",
+  "domain": "newmaterial.ai",
+  "slug": "home",
+  "pageTitle": "New Material · AI-native, by design.",
+  "capturedAt": "2026-10-21T07:59:32.727Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "fullPage": true,
+    "actualRenderedHeight": 3187
+  },
+  "tool": "Playwright / Chromium (headless)",
+  "files": {
+    "html": "page.html",
+    "htmlSizeBytes": 392184,
+    "markdown": "content.md",
+    "markdownSizeBytes": 7383,
+    "screenshot": "screenshot-full-1440.png",
+    "screenshotSizeBytes": 676005
+  },
+  "notes": "Query string ?ref=onepagelove stripped. Floating cards and team grid.",
+  "status": "success"
+}

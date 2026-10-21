@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "skills": {
+    "create-nextjs-website": {
+      "source": "devanshdeveloper/skills-by-devansh",
+      "sourceType": "github",
+      "skillPath": "skills/create-nextjs-website/SKILL.md",
+      "computedHash": "9c6b659fc4a61e916f5b0f56a35794872262af361b30b964c6e7e3425589c381"
+    },
+    "create-nww-website": {
+      "source": "../../pilots/skills-by-devansh",
+      "sourceType": "local",
+      "computedHash": "0d3b53510fb4dcd1ab344e9bb923baf05b7a68977c1ddfeecc5a9beb5f97237d"
+    },
+    "nww": {
+      "source": "devanshdeveloper/skills-by-devansh",
+      "sourceType": "github",
+      "skillPath": "skills/nww/SKILL.md",
+      "computedHash": "d8b46b320192577b36cde196f634b8d8219f9a8d21ae4cf87119bf30106903c8"
+    }
+  }
+}

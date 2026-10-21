@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gate 2: Design Theory & Concept Review Hub</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      --bg: #F8F9FA;
+      --surface: #FFFFFF;
+      --surface-subtle: #F1F3F5;
+      --border: #E2E8F0;
+      --text: #0F172A;
+      --text-muted: #475569;
+      --accent: #D97706;
+      --accent-soft: #FEF3C7;
+      --radius: 12px;
+      --shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+    }
+    body { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; padding: 40px 20px 80px; }
+    .wrapper { max-width: 1040px; margin: 0 auto; }
+    .top-nav { margin-bottom: 24px; }
+    .top-nav a { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); font-weight: 600; font-size: 14px; text-decoration: none; }
+    .top-nav a:hover { text-decoration: underline; }
+    .header { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 36px 32px; box-shadow: var(--shadow); margin-bottom: 32px; }
+    .badge { display: inline-block; background: var(--accent-soft); color: var(--accent); font-size: 13px; font-weight: 700; padding: 4px 12px; border-radius: 999px; margin-bottom: 12px; }
+    h1 { font-size: 32px; font-weight: 800; line-height: 1.25; margin-bottom: 12px; letter-spacing: -0.02em; }
+    .lead { font-size: 17px; color: var(--text-muted); line-height: 1.6; }
+    .status-bar { display: flex; align-items: center; gap: 10px; margin-top: 20px; padding: 12px 16px; background: var(--surface-subtle); border-radius: 8px; font-size: 14px; font-weight: 600; color: #92400E; }
+    .status-dot { width: 10px; height: 10px; border-radius: 50%; background: #F59E0B; }
+
+    /* Concept Listing Grid */
+    .concepts-grid { display: grid; grid-template-columns: 1fr; gap: 24px; margin-top: 32px; }
+    .concept-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px 32px; box-shadow: var(--shadow); display: flex; flex-direction: column; justify-content: space-between; }
+    .concept-card h2 { font-size: 22px; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+    .concept-card p.lead { font-size: 15px; margin-bottom: 16px; }
+    .card-footer { border-top: 1px solid var(--border); padding-top: 16px; margin-top: 12px; }
+    .slug-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .slug-btn { display: inline-flex; align-items: center; gap: 6px; background: var(--accent); color: #FFFFFF; font-size: 13px; font-weight: 700; padding: 8px 16px; border-radius: 6px; text-decoration: none; transition: opacity 0.15s ease; }
+    .slug-btn:hover { opacity: 0.9; }
+
+    /* Decision Protocol Banner */
+    .decision-banner { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px 32px; margin-top: 40px; }
+    .decision-banner h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+    .decision-banner p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top-nav">
+      <a href="../index.html">← Back to Project Review Portal</a>
+    </div>
+
+    <div class="header">
+      <span class="badge">Pipeline Gate 2</span>
+      <h1>Gate 2: Design Theory & Concept Review</h1>
+      <p class="lead">Compare the distinct visual identities developed for this project. Each concept features dedicated day and night browser mockups, friendly token swatches, typography samples, and reference influences.</p>
+      <div class="status-bar">
+        <span class="status-dot"></span>
+        <span>Gate Status: Awaiting Client Selection before proceeding to Stage 3 (Page List & Sitemap)</span>
+      </div>
+    </div>
+
+    <div class="concepts-grid">
+      
+      <div class="concept-card">
+        <div class="card-header">
+          <span class="badge">minimal-slate</span>
+          <h2>Devansh Khetwani — Full-Stack Software Engineer (Concept 1: Minimal Slate)</h2>
+          <p class="lead">Visual direction and design review page.</p>
+        </div>
+        <div class="card-footer">
+          <div class="slug-actions">
+            <a href="minimal-slate/index.html" class="slug-btn">Experience Full Page Design →</a>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="concept-card">
+        <div class="card-header">
+          <span class="badge">technical-cyan</span>
+          <h2>Devansh Khetwani — Full-Stack Software Engineer (Concept 2: Technical Obsidian)</h2>
+          <p class="lead">Visual direction and design review page.</p>
+        </div>
+        <div class="card-footer">
+          <div class="slug-actions">
+            <a href="technical-cyan/index.html" class="slug-btn">Experience Full Page Design →</a>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="concept-card">
+        <div class="card-header">
+          <span class="badge">editorial-sand</span>
+          <h2>Devansh Khetwani — Full-Stack Software Engineer (Concept 3: Editorial Sand)</h2>
+          <p class="lead">Visual direction and design review page.</p>
+        </div>
+        <div class="card-footer">
+          <div class="slug-actions">
+            <a href="editorial-sand/index.html" class="slug-btn">Experience Full Page Design →</a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="decision-banner">
+      <h3>How to Make Your Decision</h3>
+      <p>1. Open each concept review page above to evaluate the typography, color system, and live day/night preview.<br>
+         2. When you find the direction that best fits your goals, use the "Copy My Decision" button at the bottom of that page.<br>
+         3. Paste your confirmation into our chat to approve Gate 2 and begin Stage 3.</p>
+    </div>
+  </div>
+</body>
+</html>
